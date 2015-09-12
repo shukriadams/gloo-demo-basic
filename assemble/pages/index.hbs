@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <!-- by default, gloo builds a single css file for your entire site -->
+        <link rel="stylesheet" href="css/gloo.css" type="text/css">
+    </head>
+    <body>
+        <!-- Use component .hbs partials and data files -->
+        {{>first first}}
+        
+        {{>second second}}
+
+        <!-- Load your gloo bundle with RequireJS. You can have as many bundles as you want, each one containing their own logic. Each bundle has access to all Gloo component JS files -->
+        <script data-main="/js/bundle1" src="/lib/require.js"></script>
+    </body>
+</html>
