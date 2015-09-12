@@ -24,6 +24,7 @@ Project folders
 - /dev/__components/first  : This is the component "first"
 - /dev/__components/second : This is the component "second"
 - /dev/__/js               : All JS files in here will be turned into self-contained bundles
+- /gloo                    : Gloo lives in here - ideally it should be left alone
 - /release                 : Webroot when running in "release" mode
 
 
