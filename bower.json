@@ -5,7 +5,7 @@
     "Shukri Adams <shukri.adams@gmail.com>"
   ],
     "dependencies": {
-        "gloo": "https://github.com/shukriadams/gloo.git",
+        "gloo": "https://github.com/shukriadams/gloo.git#v0.0.3",
         "requirejs": "2.1.20"
     },  
   "license": "MIT",
